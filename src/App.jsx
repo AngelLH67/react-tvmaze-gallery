@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router";
 import SearchForm from "./components/searchForm.jsx";
+import ShowList from "./components/ShowList.jsx";
 import { searchShows } from "./utils.js";
 import "./App.css";
 
@@ -55,11 +56,7 @@ function Gallery() {
 
       <p>Showing {shows.length} shows.</p>
 
-      <ul>
-        {shows.map((show) => (
-          <li key={show.id}>{show.name}</li>
-        ))}
-      </ul>
+      <ShowList shows={shows} />
 
       <p>
         Show data provided by{" "}
