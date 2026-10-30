@@ -7,7 +7,7 @@ TVmaze Show Gallery is a React single-page application that allows users to sear
 
 ## Installation and Setup
 
-1. Clone the repository 
+1. Clone the repository
 
 2. Navigate into the project folder:
    ```bash
@@ -49,5 +49,5 @@ Overall, React helped organize the application and made it easier to manage chan
 
 ## AI Assistance Disclosure
 
-ChatGPT was used as a learning and debugging assistant during development. It helped explain React concepts, troubleshoot errors, and code improvements. I reviewed and tested the code and worked to understand how the different parts of the application function.
+AI was used as a learning and debugging assistant during development. It helped explain React concepts, troubleshoot errors, and code improvements. I reviewed and tested the code and worked to understand how the different parts of the application function.
 
