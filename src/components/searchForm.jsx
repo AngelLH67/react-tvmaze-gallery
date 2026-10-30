@@ -1,3 +1,4 @@
+
 function SearchForm({ query, onQueryChange, onSearch }) {
     function handleSubmit(event) {
         event.preventDefault();
