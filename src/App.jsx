@@ -7,7 +7,7 @@ import { searchShows } from "./utils.js";
 import "./App.css";
 
 function Gallery() {
-  const [query, setQuery] = useState("girls");
+  const [query, setQuery] = useState("");
   const [shows, setShows] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
